@@ -1,0 +1,35 @@
+
+       
+       
+       
+       
+        
+        <script src=" https://api.github.com/markdown/raw. "></script>
+        <script>
+            $(document).ready(function () {
+                $('#load').click(function(e) {
+                    e.preventDefault();
+                    $.ajax({
+                        type: "POST",
+                        dataType: "html",
+                        processData: false,
+                        url: "https://api.github.com/markdown/raw",
+                        contentType: "text/plain",
+                        success: function(data){
+                        console.log("success!");
+                        console.log(data);
+                        },
+                        error: function(jqXHR, textStatus, error){
+                        console.log(jqXHR, textStatus, error);
+                        
+                            success: function(data) {
+                            var converter = new Markdown.Converter();
+                            var result = converter.makeHtml(data);
+                            $('#content').replaceWith(result);
+                            }
+                        }   
+                    
+                    });
+                });
+            });
+        </script>

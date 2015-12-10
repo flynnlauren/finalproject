@@ -1,0 +1,161 @@
+element.style {
+}
+html {
+    display: block;
+}
+user agent stylesheethtml {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+link {
+    display: none;
+}
+
+title {
+    display: none;
+}
+
+meta {
+    display: none;
+}
+
+body {
+    background-image: url("https://i.ytimg.com/vi/Xs-HbHCcK58/maxresdefault.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+user agent stylesheetbody {
+    display: block;
+    margin: 8px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.nav {
+    display: inline;
+    padding-top: 10%;
+    padding-left: .5%;
+    padding-right: .5%;
+    padding-bottom: 10%;
+}
+
+li {
+    list-style: none;
+}
+user agent stylesheetli {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+Inherited from ul
+ul {
+    text-align: center;
+}
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+user agent stylesheetli {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 25px;
+}
+user agent stylesheeta:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    font-size: 15px;
+    font-family: tahoma;
+    color: white;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+div {
+    display: block;
+}
+
+user agent stylesheetdiv {
+    display: block;
+}
+Inherited from ul
+ul {
+    text-align: center;
+}
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.footer {
+    text-align: bottom;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+}
+
