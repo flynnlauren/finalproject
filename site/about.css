@@ -33,6 +33,9 @@ meta {
     #right-column{
     width: 30%;
     }
+    #page {
+    background: url("https://i.ytimg.com/vi/Xs-HbHCcK58/maxresdefault.jpg") repeat-x;
+    }
     img{
         width: 100%;
     }
@@ -50,6 +53,9 @@ meta {
     #right-column{
     width: 100%;
     }
+    #page {
+    background: url("https://i.ytimg.com/vi/Xs-HbHCcK58/maxresdefault.jpg") repeat-x;
+    }
     body {
     background-repeat: no-repeat;
     background-position: center;
@@ -61,8 +67,8 @@ meta {
      #container{
         width: 320px;
      }
-    
-    
+}
+
 body {
     background-image: url("https://i.ytimg.com/vi/Xs-HbHCcK58/maxresdefault.jpg");
     background-size: 100% 100%;
@@ -166,7 +172,10 @@ user agent stylesheeta:-webkit-any-link {
     width: 260px;
     float: left;
 }
-
+#page {
+    background: url("https://i.ytimg.com/vi/Xs-HbHCcK58/maxresdefault.jpg");
+  }
+}
 div {
     display: block;
 }
