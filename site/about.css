@@ -36,6 +36,9 @@ meta {
     img{
         width: 100%;
     }
+    body {
+    background-image: 100%;
+    }
 }
 
 @media screen and (max-width:640px){
@@ -44,6 +47,9 @@ meta {
     }
     #right-column{
     width: 100%;
+    }
+    body {
+    background-image: 100%;
     }
 }
 
