@@ -37,7 +37,9 @@ meta {
         width: 100%;
     }
     body {
-    background-image: 100%, url("https://i.ytimg.com/vi/Xs-HbHCcK58/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
     }
 }
 
@@ -49,7 +51,9 @@ meta {
     width: 100%;
     }
     body {
-    background-image: 100%, url("https://i.ytimg.com/vi/Xs-HbHCcK58/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
     }
 }
 
